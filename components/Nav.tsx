@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import { TopLeftLogo } from "@/components/TopLeftLogo";
+import {ConnectButton} from "@rainbow-me/rainbowkit";
 
 export const Nav = () => {
   return (
@@ -12,7 +13,7 @@ export const Nav = () => {
           "my-8 mx-4 md:mx-20",
         )}
       >
-        <span>connect button</span>
+        <ConnectButton/>
       </nav>
     </>
   );
