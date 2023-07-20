@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import "@decent.xyz/the-box/dist/the-box-base.css";
 
 import localFont from "next/font/local";
 export const monument = localFont({
